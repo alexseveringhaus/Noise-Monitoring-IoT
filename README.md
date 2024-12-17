@@ -15,6 +15,6 @@ Run Locally:
 3. Run 'python process.py' on laptop/desktop (before sense.py so MQTT broker isn't overloaded with information)
 4. Run 'python sense.py' on Raspberry Pi
 5. Test system:
-   - Play audio/music near your GrovePi sound sensor and watch the LED adjust its brightness with different noise levels!
+   - Play audio/music near your GrovePi sound sensor and watch the LED adjust its brightness depending on the noise level!
    - If audio exceeds a threshold defined in process.py, it will flash to alert the user of excessive noise
    - Threshold is determined based on current date and time using the World Time API (no API key required) to limit noise on weekdays and nights
